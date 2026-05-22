@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    z-index: 100;
+
+
+}
+
+.nav-kiri {
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.nav-kanan {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.nav-kanan li a {
+    text-decoration: bold;
+
+}
+
+.home {
+    background-color: brown;
+    color: white;
+    display: flex;          /* tambahkan ini */
+    flex-direction: row; 
+}
+
+.home-kiri {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    flex: 1;
+}
+
+.home-kanan {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.Foto {
+    display: flex;
+    width: 250px;
+    height: auto;
+    padding: 10;
+    padding-right: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+}
+
+.about div a {
+    text-decoration: none;
+    color:black;
+    background-color: navajowhite;
+    color: bl;
+    padding: 10;
+
+}
